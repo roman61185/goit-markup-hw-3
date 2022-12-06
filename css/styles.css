@@ -204,8 +204,10 @@ p {
   line-height: 1.2;
   margin-top: 0;
   margin-bottom: 8px;
-  
 
+}
+.text-foto .desk {
+  margin-top: 32px;
 }
 
 .caption {
