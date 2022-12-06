@@ -12,6 +12,7 @@ ul {
 
 a {
   text-decoration: none;
+  
 }
 
 img {
@@ -35,7 +36,7 @@ img {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .link {
@@ -52,6 +53,10 @@ img {
 
 .link:active {
   color: var(--navy-blue);
+}
+
+.nav-logo {
+  padding: 24px 0;
 }
 
 .logo {
@@ -106,6 +111,8 @@ img {
 }
 
 .title {
+  max-width: 505px;
+  margin: 0 auto;
   color: var(--white);
   font-weight: 600;
   font-size: 56px;
@@ -139,6 +146,7 @@ img {
 .title-link {
   background-color: var(--text-color);
   text-align: center;
+  padding: 192px 0;
 }
 
 p {
@@ -165,6 +173,7 @@ p {
   font-size: 16px;
   line-height: 1.5;
   width: 264px;
+  margin-top: 16px;
 }
 
 .btn-text {
@@ -185,7 +194,7 @@ p {
 .btn-text:focus {
   color: var(--white);
   background-color: var(--navy-blue);
-  border: 1px var(--corn);
+  border: 1px solid var(--corn);
   border-radius: 4px;
 }
 
@@ -195,8 +204,8 @@ p {
   line-height: 1.2;
   margin-top: 0;
   margin-bottom: 8px;
-  margin-left: 16px;
-  padding-top: 32px;
+  
+
 }
 
 .caption {
@@ -206,7 +215,7 @@ p {
   margin-top: 0;
   margin-bottom: 72px;
   text-align: center;
-  padding-top: 120px;
+  
 }
 
 .text-foto {
@@ -217,9 +226,6 @@ p {
   padding-bottom: 32px;
 }
 
-.team {
-  padding: 0px 0px 32px;
-}
 
 .section-discription {
   padding-top: 120px;
@@ -233,7 +239,7 @@ p {
 .section-portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
-  background-color: var(--fon-color);
+ 
 }
 
 .ul-btn {
@@ -248,19 +254,21 @@ p {
 
 .li-foto {
   width: 360px;
-  border: 0.5px solid var(--cloud);
   background-color: var(--white);
-  padding-bottom: 32px;
   margin-bottom: 48px;
+}
+.li-foto:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
 
 /*разметка flex*/
 
+.cont-nav {
+  margin-left: 77px;
+}
+
 .site-nav {
   display: flex;
-  margin-left: 77px;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 
 .site-nav .item + .item {
@@ -316,8 +324,15 @@ p {
   justify-content: space-between;
 }
 
-.project-text {
-  margin-left: 16px;
+
+.card-desk {
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-bottom: 32px;
+  border-left: 0.5px solid var(--cloud);
+  border-bottom: 0.5px solid var(--cloud);
+  border-right: 0.5px solid var(--cloud);
+ 
 }
 
 /*.project-card {
